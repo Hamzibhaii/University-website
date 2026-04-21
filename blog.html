@@ -1,0 +1,218 @@
+
+<!--Hamza-->
+<!--University WebSite-->
+<!--8-17-2023-->
+<!--Blog Page-->
+
+
+<!DOCTYPE html>
+
+<!--Starting of code-->
+<html>
+
+<!--Head starts of University WebSite -->
+<head>
+
+<!--This mata tag is used for adjustment of the tital of website(phone\laptop\pc)-->
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+<!--Giving tital os website that shows on the top bar of the browser-->
+<title>University WebSite Design</title>
+
+<!--Linking the css file with html-->
+<link rel="stylesheet" href="style.css"> 
+
+<!--Google font link-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,800;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+
+
+<!--Head  ends-->
+</head>
+
+<!--Body starts-->
+<body>
+     
+    <!-- section for the hrader of website -->
+    <section class="sub-header">
+
+        <!--In this nav i will add logo-->
+         <nav>
+            <a href="indux.html"><img src="img/logo.png"></a>
+
+            <!--Creating a new div for list -->
+            <div class="nav-link" id="navlinks">
+             
+            <!--Close button   icon -->
+            <!--onclick is  to perform action on the close button-->
+           <!-- <i class="fa fa-window-close" onclick="hideMenu()"></i> -->
+            <ion-icon name="close" class="close" onclick="hideMenu()"></ion-icon>
+
+                <!--List-->
+                <ul>
+                    
+                    <li><a href="indux.html">HOME</a> </li>
+                    <li><a href="about.html">ABOUT</a> </li>
+                    <li><a href="course.html">COURSE</a> </li>
+                    <li><a href="blog.html">BLOG</a> </li>
+                    <li><a href="contact.html">CONTACT</a> </li>
+
+                </ul>
+            <!--End div-->
+            </div>
+        <!--Menu bar  icon-->
+       <!--onclick is  to perform action on the menu bar-->
+       <!-- <i class="fa fa-bars" onclick="ShowMenu()"></i>-->
+        <ion-icon name="menu" class="menu" onclick="ShowMenu()"></ion-icon>
+
+      <!--End nav-->
+     </nav>
+<h1>Our Certificate & Online Programs For 2023</h1>
+     <!--End section-->
+    </section>
+
+    <!--------------------------------------Blog page content------------------->
+  <!--Section start-->
+   <section class="blog-content">
+     <!--Main div start-->
+    <div class="row">
+
+    <div class="blog-left">
+        <img src="img/certificate.jpg">
+        
+        <h2>Our Certificate & Online Programs For 2023</h2>
+    
+        <p>Velit egestas dui id ornare arcu odio ut sem nulla. Non arcu risus quis varius quam. 
+        Dignissim diam quis enim lobortis scelerisque. Ultrices vitae auctor eu augue ut lectus.
+         Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Volutpat commodo sed
+          egestas egestas fringilla phasellus faucibus scelerisque eleifend. Consequat interdum varius 
+          sit amet mattis vulputate enim nulla. Tellus molestie nunc non blandit massa enim nec.</p>
+           <br>
+     <p>Justo donec enim diam vulputate. Ligula ullamcorper malesuada proin libero nunc consequat
+    interdum varius. Cursus euismod quis viverra nibh cras pulvinar mattis. Quis eleifend quam
+    adipiscing vitae proin sagittis nisl rhoncus mattis. Turpis massa tincidunt dui ut. Nisl
+    pretium fusce id velit ut tortor pretium. Venenatis a condimentum vitae sapien pellentesque 
+    habitant morbi tristique. Purus in massa tempor nec feugiat nisl pretium fusce. Et netus et
+    malesuada fames ac turpis egestas. Et odio pellentesque diam volutpat commodo sed. Pretium 
+    lectus quam id leo in vitae. Turpis cursus in hac habitasse platea dictumst. Lectus sit amet 
+     est placerat in egestas erat imperdiet.</p>  
+    <br>
+     <p>Auctor eu augue ut lectus arcu bibendum at varius vel. Suspendisse potenti nullam ac tortor
+     vitae. Pellentesque habitant morbi tristique senectus et netus et. In tellus integer feugiat 
+    scelerisque varius morbi enim. Viverra aliquet eget sit amet tellus cras adipiscing enim. 
+     Cursus in hac habitasse platea dictumst quisque sagittis purus sit. Eros donec ac odio tempor
+     orci dapibus ultrices. In vitae turpis massa sed elementum tempus egestas sed. Sapien faucibus et 
+    molestie ac feugiat sed lectus vestibulum mattis. Vel fringilla est ullamcorper eget. Consectetur
+    adipiscing elit duis tristique sollicitudin nibh sit amet. Morbi leo urna molestie at elementum eu
+    facilisis. Cras semper auctor neque vitae tempus.</p>
+      <br>
+        <p>A erat nam at lectus urna duis convallis convallis. Nunc mattis enim ut tellus. Nisl 
+            rhoncus mattis rhoncus urna neque viverra justo. Pharetra diam sit amet nisl. Viverra adipiscing
+             at in tellus integer feugiat scelerisque. Nam aliquam sem et tortor consequat id porta nibh.</p>
+       
+            <!--Creationg a comment box-->
+             <div class="comment-box">
+               <h3>Leave A comment</h3>
+
+               <form class="comment-form">
+               
+               <input type="text" placeholder="Enter Name">
+               <input type="email" placeholder="Enter Email">
+                <textarea  rows="5" placeholder="Your Comment"></textarea>
+                <button type="submit" class="hero-btn red-btn"  >POST COMMENT</button>
+               </form>
+           
+            </div>
+
+
+
+     </div>
+
+    <div class="blog-right"> 
+
+       <h3>Post Categories</h3>
+    <div>
+         <span>Business Analytic</span>
+         <span>23</span>
+    </div>
+    <div>
+        <span>Data Science</span>
+        <span>28</span>
+   </div>
+   <div>
+         <span>Machine Learning</span>
+        <span>15</span>
+    </div>
+    <div>
+        <span>Computer Science</span>
+        <span>18</span>
+    </div>
+    <div>
+        <span>Web Development</span>
+        <span>21</span>
+   </div>
+   <div>
+    <span>AutoCAD</span>
+    <span>34</span>
+</div>
+<div>
+    <span>Jornalism</span>
+    <span>30</span>
+</div>
+
+
+    </div>
+    
+
+<!--Main div end-->
+</div>
+    <!--Section end-->
+   </section>
+
+
+
+
+<!----------------------------------Footer-------------------------------->
+<!--Section start-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>
+        incididunt ut labore et dolore magna aliqua.</p>
+        <div class="icons">
+          <!--For icons-->
+          
+            <ion-icon name="logo-facebook" class="ion"></ion-icon>
+            <ion-icon name="logo-twitter" class="ion"></ion-icon>
+            <ion-icon name="logo-instagram" class="ion"></ion-icon>
+            <ion-icon name="logo-linkedin" class="ion"></ion-icon>
+         
+          </div>
+        <p>Made by Shurlii_07</p>
+    <!--Section end-->
+    </section>
+
+
+
+<!-----------------------Js to perform toggle opration on menu bar-------------------->
+<script>
+var navlinksc=document.getElementById("navlinks");
+function  ShowMenu(){
+navlinks.style.right="0"
+}
+function  hideMenu(){
+navlinks.style.right="-200px"
+}
+</script>
+
+<!--Icon  link  -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+<!--Body ends-->
+</body>
+
+
+</html>
